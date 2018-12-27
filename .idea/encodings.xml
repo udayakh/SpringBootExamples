@@ -4,5 +4,7 @@
     <file url="file://$PROJECT_DIR$/chapter01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter01/hello-springboot" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/chapter01/springmvc-jpa-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter02/springboot-basic" charset="UTF-8" />
   </component>
 </project>
