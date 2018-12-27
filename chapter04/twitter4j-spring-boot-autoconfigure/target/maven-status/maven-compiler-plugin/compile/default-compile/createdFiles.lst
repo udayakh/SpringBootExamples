@@ -1,0 +1,4 @@
+META-INF/spring-configuration-metadata.json
+com/uday/spring/Twitter4jAutoConfiguration.class
+com/uday/spring/Twitter4jProperties.class
+com/uday/spring/Twitter4jProperties$OAuth.class

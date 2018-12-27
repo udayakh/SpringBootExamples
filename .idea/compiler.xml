@@ -9,6 +9,9 @@
         <module name="conditional" />
         <module name="hellospringboot" />
         <module name="springbootbasic" />
+        <module name="twitter4j-spring-boot-autoconfigure" />
+        <module name="twitter4jspringbootsample" />
+        <module name="twitter4jspringbootstarter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
