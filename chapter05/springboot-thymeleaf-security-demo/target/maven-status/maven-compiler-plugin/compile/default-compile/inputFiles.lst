@@ -1,0 +1,9 @@
+/Users/udaykhosur/Documents/GitHub/SpringBootExamples/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/repositories/UserRepository.java
+/Users/udaykhosur/Documents/GitHub/SpringBootExamples/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/entities/Role.java
+/Users/udaykhosur/Documents/GitHub/SpringBootExamples/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/security/AuthenticatedUser.java
+/Users/udaykhosur/Documents/GitHub/SpringBootExamples/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/config/WebSecurityConfig.java
+/Users/udaykhosur/Documents/GitHub/SpringBootExamples/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/config/WebConfig.java
+/Users/udaykhosur/Documents/GitHub/SpringBootExamples/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/entities/User.java
+/Users/udaykhosur/Documents/GitHub/SpringBootExamples/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/web/HomeController.java
+/Users/udaykhosur/Documents/GitHub/SpringBootExamples/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/security/CustomUserDetailsService.java
+/Users/udaykhosur/Documents/GitHub/SpringBootExamples/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/SpringbootThymeleafSecurityDemoApplication.java

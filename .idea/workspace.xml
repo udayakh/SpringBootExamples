@@ -2,20 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d8fad4-cb97-4492-ab29-6124681cedd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/chapter04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-autoconfigure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-autoconfigure/src/main/java/com/uday/spring/Twitter4jAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-autoconfigure/src/main/java/com/uday/spring/Twitter4jProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-sample/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-sample/src/main/java/com/uday/spring/SpringbootTwitter4jDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-sample/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-sample/twitter4jspringbootsample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-starter/src/main/resources/META-INF/spring.provides" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-starter/twitter4jspringbootstarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/springbootthymeleafsecuritydemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/SpringbootThymeleafSecurityDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/security/AuthenticatedUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static.assets.bootstrap.js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/css/bootstrap.css.map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/adminhome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/userhome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -34,6 +49,8 @@
     <ignored path="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-starter/target/" />
     <ignored path="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-sample/target/" />
     <ignored path="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-autoconfigure/target/" />
+    <ignored path="$PROJECT_DIR$/chapter05/target/" />
+    <ignored path="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +74,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter04/twitter4j-spring-boot-sample/target/classes/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -66,6 +87,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -76,23 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/src/main/resources/messages.properties" />
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/src/main/java/com/uday/spring/demo/HomeController.java" />
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/src/main/java/com/uday/spring/demo/User.java" />
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/src/main/resources/application-prod.properties" />
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/src/main/java/com/uday/spring/demo/UserRepository.java" />
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/src/main/java/com/uday/spring/demo/Application.java" />
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/src/main/java/com/uday/spring/User.java" />
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/src/main/java/com/uday/spring/Application.java" />
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/src/main/java/com/uday/spring/UserRepository.java" />
-        <option value="$PROJECT_DIR$/chapter01/hello-springboot/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/chapter01/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/chapter02/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/chapter02/src/main/resources/public/index.html" />
         <option value="$PROJECT_DIR$/chapter02/src/main/java/com/uday/spring/HomeController.java" />
         <option value="$PROJECT_DIR$/chapter02/pom.xml" />
         <option value="$PROJECT_DIR$/chapter02/springboot-basic/pom.xml" />
@@ -118,6 +124,32 @@
         <option value="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-autoconfigure/src/main/java/com/uday/spring/Twitter4jProperties.java" />
         <option value="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-autoconfigure/src/main/java/com/uday/spring/Twitter4jAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-sample/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/chapter05/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/css/bootstrap.css.map.css" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static.assets.bootstrap.js/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/403.html" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/adminhome.html" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/layout.html" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/userhome.html" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/application-prod.properties" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/messages.properties" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/entities/Role.java" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/entities/User.java" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/repositories/UserRepository.java" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/security/AuthenticatedUser.java" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/security/CustomUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/SpringbootThymeleafSecurityDemoApplication.java" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/web/HomeController.java" />
+        <option value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/pom.xml" />
       </list>
     </option>
   </component>
@@ -149,53 +181,43 @@
             <path>
               <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-thymeleaf-security-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-thymeleaf-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-sample" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-thymeleaf-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-thymeleaf-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-thymeleaf-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -203,61 +225,40 @@
             <path>
               <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-sample" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-sample" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-thymeleaf-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter4j-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-thymeleaf-security-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="static.assets.bootstrap.js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-thymeleaf-security-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="SpringBootExamples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -278,7 +279,9 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545942508060" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545986914286" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -287,6 +290,10 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/fonts" />
+      <recent name="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-autoconfigure/src/main/resources" />
       <recent name="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-autoconfigure" />
@@ -309,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.chapter04 spring boot sample [clean,install]">
+  <component name="RunManager" selected="Maven.chapter05 spring boot sample [clean,install]">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.uday.spring.Application" />
       <module name="hellospringboot" />
@@ -350,7 +357,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter04 spring boot sample [clean,install]" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="chapter05 spring boot sample [clean,install]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -361,8 +368,6 @@
             </option>
             <option name="goals">
               <list>
-                <option value="clean" />
-                <option value="package" />
                 <option value="spring-boot:run" />
               </list>
             </option>
@@ -371,7 +376,7 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/chapter04/twitter4j-spring-boot-sample" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -390,6 +395,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootThymeleafSecurityDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springbootthymeleafsecuritydemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uday.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.uday.spring.SpringbootThymeleafSecurityDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootTwitter4jDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="twitter4jspringbootsample" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.uday.spring.SpringbootTwitter4jDemoApplication" />
@@ -401,12 +419,14 @@
       <item itemvalue="Application.Application" />
       <item itemvalue="Application.SpringbootTwitter4jDemoApplication" />
       <item itemvalue="JUnit.ConditionalTest" />
-      <item itemvalue="Maven.chapter04 spring boot sample [clean,install]" />
+      <item itemvalue="Maven.chapter05 spring boot sample [clean,install]" />
       <item itemvalue="Spring Boot.SpringbootBasicApplication" />
       <item itemvalue="Spring Boot.SpringbootTwitter4jDemoApplication" />
+      <item itemvalue="Spring Boot.SpringbootThymeleafSecurityDemoApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringbootThymeleafSecurityDemoApplication" />
         <item itemvalue="Application.SpringbootTwitter4jDemoApplication" />
         <item itemvalue="JUnit.ConditionalTest" />
         <item itemvalue="Spring Boot.SpringbootBasicApplication" />
@@ -424,7 +444,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545916070093</updated>
-      <workItem from="1545916075689" duration="9701000" />
+      <workItem from="1545916075689" duration="11861000" />
     </task>
     <servers />
   </component>
@@ -437,14 +457,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9701000" />
+    <option name="totallyTimeSpent" value="11861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="967" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985591" visible="true" weight="0.2547619" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985591" visible="true" weight="0.2547619" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24969475" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -456,7 +475,7 @@
       <window_info anchor="bottom" id="Run Dashboard" sideWeight="0.49940476" weight="0.32910052" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49821427" visible="true" weight="0.38306877" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49821427" visible="true" weight="0.38306877" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39930955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,160 +505,6 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter01/springmvc-jpa-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/chapter01.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/hello-springboot/src/main/resources/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6141fcd8-8cad-4625-98bf-115494897b69/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/hello-springboot/src/main/java/com/uday/spring/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/hello-springboot/src/main/java/com/uday/spring/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/hello-springboot/src/main/java/com/uday/spring/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/hello-springboot/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/hello-springboot/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/hello-springboot/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="e#2#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/hello-springboot/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/hello-springboot/src/main/java/com/uday/spring/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/src/main/resources/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/src/main/java/com/uday/spring/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/hello-springboot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/springboot-basic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/springboot-basic/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/springboot-basic/src/main/resources/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/springboot-basic/src/main/java/com/uday/spring/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -810,6 +675,206 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter04/twitter4j-spring-boot-sample/target/classes/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/css/bootstrap.css.map.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="390401" selection-start-column="390401" selection-end-column="390401" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="6799" column="41" selection-start-line="6799" selection-start-column="41" selection-end-line="6799" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="122272" selection-start-line="4" selection-start-column="122272" selection-end-line="4" selection-end-column="122272" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static.assets.bootstrap.js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3496" selection-start-line="6" selection-start-column="3496" selection-end-line="6" selection-end-column="3496" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/403.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/adminhome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/templates/userhome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/application-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/entities/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/repositories/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/security/AuthenticatedUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/security/CustomUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/SpringbootThymeleafSecurityDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/src/main/java/com/uday/spring/web/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/springboot-thymeleaf-security-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
